@@ -7,6 +7,10 @@
            margin-top: 3px;
            margin-bottom: 50px;
        }
+
+       main> .container-fluid{
+           padding-top: 60px;
+       }
        .sticky-nav {
            position: fixed;
            left: 0;
