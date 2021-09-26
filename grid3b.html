@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap and The Grids: Grid 2</title>
+    <title>Bootstrap and The Grids: Grid 3</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link " href="/index.html">Home</a>
+                    <a class="nav-link "  href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/grid1.html">Grid 1</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active"  aria-current="page" href="/grid2.html">Grid 2</a>
+                    <a class="nav-link" href="/grid2.html">Grid 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/grid3.html">Grid 3</a>
+                    <a class="nav-link active" aria-current="page" href="/grid3.html">Grid 3</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/grid4.html">Grid 4</a>
@@ -63,15 +63,43 @@
 
     <main class="flex-shrink-0">
        <div class="container h-100 minHeight">
+            <ul class="nav nav-pills mb-1">
+               <li class="nav-item">
+                   <a href="grid3.html" class="nav-link " >Grid 3</a>
+               </li>
+               <li class="nav-item">
+                   <a href="grid3b.html" class="nav-link active" aria-current="page">Grid 3B</a>
+               </li>
+           </ul>
             <div class="row h-100">
-                <div class="col-4">
-                    <div class="bg-secondary text-light h-100">
-                        <h3>Side Nav </h3>
+                <!--LEFT COLUMN-->
+                <div class="col-7">
+                    <div class="bg-secondary text-light p-2 h-100">
+                        <p>Lorem ipsum dolor sit amet. In molestiae vero ut modi reprehenderit sit asperiores alias. At magni corporis sed necessitatibus harum aut velit provident qui quas molestias et reprehenderit assumenda. </p>
+
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="bg-dark text-light h-100">
-                        <h3>Main Content</h3>
+                <!--RIGHT COLUMN-->
+                <div class="col-5">
+                    <!--RIGHT TOP-->
+                    <div class="bg-secondary text-light p-2">
+                        <form class="d-flex">
+                            <input type="search" class="form-control me-2" placeholder="search" aria-label="search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+
+                    </div>
+                    <!--RIGHT BOTTOM-->
+                    <div class="bg-dark text-light mt-2 p-2">
+                        <h4>More Articles</h4>
+                        <ul class="nav flex-column h-25">
+                            <li class="nav nav-item">
+                                <a href="#" class="nav-link">Article One</a>
+                                <a href="#" class="nav-link">Article Two</a>
+                                <a href="#" class="nav-link">Article Three</a>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>

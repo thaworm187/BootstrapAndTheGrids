@@ -62,8 +62,42 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
+       <div class="container h-100 minHeight">
+           <ul class="nav nav-pills mb-1">
+               <li class="nav-item">
+                   <a href="grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
+               </li>
+               <li class="nav-item">
+                   <a href="grid3b.html" class="nav-link" >Grid 3B</a>
+               </li>
+           </ul>
+            <div class="row h-100">
+                <!--LEFT COLUMN-->
+                <div class="col-7">
+                    <div class="bg-secondary text-light p-2 h-100">
+                        <p>Lorem ipsum dolor sit amet. In molestiae vero ut modi reprehenderit sit asperiores alias. At magni corporis sed necessitatibus harum aut velit provident qui quas molestias et reprehenderit assumenda. </p>
 
+                    </div>
+                </div>
+                <!--RIGHT COLUMN-->
+                <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+                    <!--RIGHT TOP-->
+                    <div class="bg-dark text-light h-50 p-2">
+                        <p>Lorem ipsum dolor sit amet. In molestiae vero ut modi reprehenderit sit asperiores alias. At magni corporis sed necessitatibus harum aut velit provident qui quas molestias et reprehenderit assumenda. </p>
+
+                    </div>
+                    <!--RIGHT BOTTOM-->
+                    <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
+                        <p>Lorem ipsum dolor sit amet. In molestiae vero ut modi reprehenderit sit asperiores alias. At magni corporis sed necessitatibus harum aut velit provident qui quas molestias et reprehenderit assumenda. </p>
+
+                    </div>
+                    <div class="bg-dark text-light border border-top p-2">
+                        <button class="btn btn-light" type="button">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">

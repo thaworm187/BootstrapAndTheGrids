@@ -2,6 +2,11 @@
            padding: 60px 15px 0;
            margin-bottom: 5rem;
        }
+
+       body> main{
+           margin-top: 3px;
+           margin-bottom: 50px;
+       }
        .sticky-nav {
            position: fixed;
            left: 0;
